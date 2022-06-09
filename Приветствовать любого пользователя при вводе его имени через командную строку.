@@ -1,0 +1,9 @@
+public class HelloGuest {
+
+        public static void main (String[]args){
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Введите Ваше имя:");
+        String name = scan.next();
+        System.out.println("Hello " + name +"!");
+    }
+}
